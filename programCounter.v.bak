@@ -1,0 +1,13 @@
+module pc( pcin , pcout , reset );
+input reset
+input [31:0] pcin ;
+output  reg [31:0]  pcout;
+//initial begin pcout1=0; end
+always @(*s)
+begin
+    if(reset)
+        pcout = 0 ;
+    else
+        pcout = pcin ;
+end
+endmodule

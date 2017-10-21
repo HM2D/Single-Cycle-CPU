@@ -1,0 +1,22 @@
+module ALUControl(ALUOp, FuncCode, ALUCtl);
+input [1:0] ALUOp;
+input [5:0] FuncCode;
+output reg [2:0] ALUCtl;
+always @(ALUOp, FuncCode) begin
+    if ( ALUOp == 2 )
+        case (FuncCode)
+            32: ALUCtl<=0; // add
+            34: ALUCtl<=1; //subtract
+            36: ALUCtl<=5; // and
+            24: ALUCtl<=4; //mul
+            8 : ALUCtl<=0;//JR
+            default: ALUCtl<=8; // should not happen
+        endcase
+    else
+        case (ALUOp)
+            0:  ALUCtl<=0;
+            1: ALUCtl<=1;
+            default: ALUCtl<=8; // should not happen
+        endcase
+end
+endmodule

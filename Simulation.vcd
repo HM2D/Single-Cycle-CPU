@@ -1,0 +1,152 @@
+$date
+	Fri May 22 17:13:22 2015
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Main $end
+$var wire 2 ! RegDst [1:0] $end
+$upscope $end
+$scope module Main $end
+$var wire 1 " RegWrite $end
+$upscope $end
+$scope module Main $end
+$var wire 1 # ALUSrc $end
+$upscope $end
+$scope module Main $end
+$var wire 1 $ MemRead $end
+$upscope $end
+$scope module Main $end
+$var wire 1 % MemWrite $end
+$upscope $end
+$scope module Main $end
+$var wire 2 & MemToReg [1:0] $end
+$upscope $end
+$scope module Main $end
+$var wire 1 ' Branch $end
+$upscope $end
+$scope module Main $end
+$var wire 1 ( Jump $end
+$upscope $end
+$scope module Main $end
+$var wire 1 ) zero $end
+$upscope $end
+$scope module Main $end
+$var wire 32 * ALUResult [31:0] $end
+$upscope $end
+$scope module Main $end
+$var reg 1 + clk $end
+$upscope $end
+$scope module Main $end
+$var wire 32 , PC [31:0] $end
+$upscope $end
+$scope module Main $end
+$var wire 32 - WD3 [31:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx -
+b0 ,
+0+
+b0z *
+x)
+x(
+x'
+bx &
+x%
+z$
+x#
+x"
+bx !
+$end
+#50
+0)
+b111 *
+b111 -
+0(
+0'
+b0 &
+0%
+0#
+1"
+b1 !
+b1 ,
+1+
+#100
+0+
+#150
+1)
+b0 -
+b0 *
+b10 ,
+1+
+#200
+0+
+#250
+b110001 -
+0)
+b110001 *
+b11 ,
+1+
+#300
+0+
+#350
+b1000100 -
+1#
+b0 !
+b1000100 *
+b100 ,
+1+
+#400
+0+
+#450
+b1000110 -
+b1000110 *
+b1000101 ,
+1+
+#500
+0+
+#550
+bx -
+x)
+bx *
+1+
+#600
+0+
+#650
+bx ,
+1+
+#700
+0+
+#750
+1+
+#800
+0+
+#850
+1+
+#900
+0+
+#950
+1+
+#1000
+0+
+#1050
+1+
+#1100
+0+
+#1150
+1+
+#1200
+0+
+#1250
+1+
+#1300
+0+
+#1350
+1+
+#1400
+0+

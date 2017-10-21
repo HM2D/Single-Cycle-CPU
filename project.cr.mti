@@ -1,0 +1,15 @@
+C:/modeltech64_10.1c/examples/pro1.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/pro1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module V1
+
+Top level modules:
+	V1
+
+} {} {}} C:/modeltech64_10.1c/examples/pro2.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/pro2.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module test
+
+Top level modules:
+	test
+
+} {} {}}

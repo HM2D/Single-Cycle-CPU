@@ -1,0 +1,27 @@
+module RegFile(ra1, rd1 , ra2 , rd2 , clk , RegWrite , wa ,wd );
+input[4:0] ra1;
+output[31:0] rd1;
+input[4:0] ra2;
+output[31:0] rd2;
+input clk;
+input[4:0] wa;
+input[31:0] wd;
+input RegWrite;
+reg [31:0] registers[31:0];
+initial begin
+
+  $readmemb("registerIn.txt",registers);
+  
+end
+
+assign rd1 = registers[ra1];
+assign rd2 = registers[ra2];
+
+always@ ( posedge clk )
+begin
+ if (RegWrite)
+ registers[wa] <= wd;
+ $monitor("Register %d is now %d", wa,wd);
+ end
+ 
+ endmodule

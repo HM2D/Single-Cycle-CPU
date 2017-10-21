@@ -1,0 +1,19 @@
+module memory(clock,WE,A,WD,RD);
+input clock;
+input WE;
+input [31:0] WD;
+input [31:0] A;
+output [31:0] RD;
+reg [255:0] memory [31:0];
+initial 
+$readmemb ("memory.data",memory);
+
+assign RD= (WE) ?  4'hzzzz:memory[rd_address] ;
+
+always @(posedge clock)
+begin 
+ if (WE)begin
+ memory[A]=WD;
+ end
+end
+endmodule

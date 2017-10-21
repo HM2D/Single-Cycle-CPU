@@ -1,0 +1,152 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file C:/Modeltech_pe_edu_10.3a/examples/mozhgol.mpf was not found.
+# Unable to open project.
+# Loading project project
+# Compile of pro1.v was successful.
+# Compile of pro2.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of pro1.v was successful.
+# Compile of pro2.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.test
+# vsim -gui work.test 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.test(fast)
+add wave -position insertpoint  \
+sim:/test/a \
+sim:/test/b \
+sim:/test/o
+quit -sim
+# Compile of pro1.v was successful.
+# Compile of pro2.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.V
+# vsim -gui work.V 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.V(fast)
+add wave -position insertpoint  \
+sim:/V/a \
+sim:/V/b \
+sim:/V/o
+quit -sim
+# Compile of pro1.v was successful.
+# Compile of pro2.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui work.V1
+# vsim -gui work.V1 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading work.V1(fast)
+add wave -position insertpoint  \
+sim:/V1/a \
+sim:/V1/b \
+sim:/V1/o
+quit -sim
+vsim -gui work.test
+# vsim -gui work.test 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.test(fast)
+add wave -position insertpoint  \
+sim:/test/a \
+sim:/test/b \
+sim:/test/o
+quit -sim
+# reading C:\modeltech64_10.1c\win64/../modelsim.ini
+# Loading project SingleCycleCPU
+# Compile of programCounter.v failed with 1 errors.
+# Compile of programCounter.v failed with 1 errors.
+# Compile of programCounter.v was successful.
+# Compile of accmulator.v failed with 1 errors.
+# Compile of accmulator.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALUControl.v was successful.
+# Compile of registerFile.v failed with 2 errors.
+# Compile of registerFile.v was successful.
+# Compile of programCounter.v was successful.
+# Compile of instructionMemory.v was successful.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v was successful.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of signExtend.v failed with 1 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of adder.v was successful.
+# Compile of mux2_1.v was successful.
+# Compile of dataMemory.v failed with 2 errors.
+# Compile of dataMemory.v failed with 1 errors.
+# Compile of dataMemory.v was successful.
+# Compile of controller.v failed with 1 errors.
+# Compile of controller.v failed with 1 errors.
+# Compile of controller.v failed with 1 errors.
+# Compile of controller.v failed with 1 errors.
+# Compile of controller.v failed with 1 errors.
+# Compile of instructionMemory.v was successful.
+# Compile of signExtend.v was successful.
+# Compile of controlUnit.v failed with 2 errors.
+# Compile of controlUnit.v failed with 2 errors.
+# Compile of controlUnit.v failed with 2 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of leftShift.v failed with 1 errors.
+# Compile of leftShift.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU.v failed with 1 errors.
+# Compile of ALU.v was successful.
+# Compile of instructionMemory.v was successful.
+# Compile of registerFile.v was successful.

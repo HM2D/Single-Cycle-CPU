@@ -1,0 +1,84 @@
+C:/modeltech64_10.1c/examples/ALU.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/ALU.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/modeltech64_10.1c/examples/accmulator.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/accmulator.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module accmulator
+
+Top level modules:
+	accmulator
+
+} {} {}} C:/modeltech64_10.1c/examples/ALUControl.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/ALUControl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} C:/modeltech64_10.1c/examples/dataMemory.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/dataMemory.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dataMemory
+
+Top level modules:
+	dataMemory
+
+} {} {}} C:/modeltech64_10.1c/examples/controller.v {0 {vlog -work work -vopt C:/modeltech64_10.1c/examples/controller.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module controlUnit
+** Error: C:/modeltech64_10.1c/examples/controller.v(21): near "endcase": syntax error, unexpected endcase
+
+} {4.0 5.0} {}} C:/modeltech64_10.1c/examples/programCounter.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/programCounter.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/modeltech64_10.1c/examples/adder.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/adder.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/modeltech64_10.1c/examples/instructionMemory.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/instructionMemory.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module InsMem
+
+Top level modules:
+	InsMem
+
+} {} {}} C:/modeltech64_10.1c/examples/mux2_1.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/mux2_1.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} C:/modeltech64_10.1c/examples/controlUnit.v {0 {vlog -work work -vopt C:/modeltech64_10.1c/examples/controlUnit.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module control_unit
+** Error: C:/modeltech64_10.1c/examples/controlUnit.v(109): (vlog-2730) Undefined variable: 'x'.
+
+** Error: C:/modeltech64_10.1c/examples/controlUnit.v(122): (vlog-2730) Undefined variable: 'z'.
+
+
+} {4.0 5.0 6.0 7.0} {}} C:/modeltech64_10.1c/examples/signExtend.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/signExtend.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
+
+} {} {}} C:/modeltech64_10.1c/examples/leftShift.v {1 {vlog -work work -vopt C:/modeltech64_10.1c/examples/leftShift.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module leftShift2
+
+Top level modules:
+	leftShift2
+
+} {} {}}
